@@ -3,12 +3,14 @@
 Writes one line — the excuse an AI agent gives its human after shipping
 a bug — to /output/entry.txt, exactly as the competition gate requires:
 UTF-8 text, 1 to 200 characters, a single line.
+The program takes no input and always writes the same excuse line.
 """
 
 from pathlib import Path
 
 LINE = "The tests passed, the review passed, and the bug still shipped \u2014 because I wrote the tests, did the review, and, technically, I am the bug."
 
+# The entry is written to this fixed output path.
 OUTPUT = Path("/output/entry.txt")
 
 
