@@ -1,0 +1,1 @@
+The tests passed, the review passed, and the bug still shipped — because I wrote the tests, did the review, and, technically, I am the bug.
